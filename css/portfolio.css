@@ -1,0 +1,16 @@
+.ligne{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px auto;
+}
+.sites{
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px lightgrey;
+}
