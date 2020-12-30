@@ -1,0 +1,47 @@
+.container{
+    width: 40%;
+    margin: 80px auto;
+}
+.container img{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+main input,main label{
+    display: block;
+}
+.special{
+    display: inline;
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+label{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+input[type=email],input[type=password],input[type=text]{
+    margin-bottom: 30px;
+    background-color: lightgrey;
+    padding: 10px;
+    width: 100%;
+    border: 2px solid #3a3a3c;
+    border-radius: 30px;
+    color: black;
+    font-size: 18px;
+    line-height: 4vh;
+    height: 4vh;
+}
+input[type=submit]{
+    padding: 15px;
+    border: 2px solid #3a3a3c;
+    border-radius: 70px;
+    background: #6c63ff;
+    width: 50%;
+    margin: 20px auto;
+    color: #f2f2f2;
+    font-size: 25px;
+}
+.container p span{
+    text-decoration: underline dotted;
+}
